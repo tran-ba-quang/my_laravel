@@ -3,4 +3,8 @@ body{
 
     margin-top: 3px; */
     margin:3px 0px 5px 0px;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
 }

@@ -1,0 +1,74 @@
+.manifesto{
+    width: 100%;
+    margin-top: 40px;
+}
+.container {
+    margin-right: 15%;
+    margin-left: 15%;
+    display: inline-flex;
+}
+.manifesto-decor {
+    margin-right: 30px;
+}
+.manifesto-decor img{
+    width: 300px;
+    height: auto;
+   
+}
+.container .manifesto-container{
+    width: 100%;
+}
+.container .manifesto-container h2{
+    text-align: left;
+    font-size: 42px;
+    color: #ff4c00;
+    margin: 0;
+}
+.manifesto-content{
+    color: #222;
+}
+.readmore .btn-link{
+    color: #ff4c00;
+    font-weight: 500!important;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+    padding: 0  ;
+}
+.readmore {
+    float: right;
+}
+.readmore .btn-link:hover{
+    border-bottom:2px solid ;
+}
+
+
+
+.container-fluid{
+    width: 100%;
+    margin-top: 40px;
+}
+.row{
+    display: inline-flex;
+}
+h2.ceo-title {
+    /* width: 378px; */
+    text-align: center;
+    margin-top: 183px;
+    padding-top: 30px;
+    font-size: 46px;
+}
+.col-xl-4 {
+    width: 500px;
+    background-color: #ff4c00;
+    
+}
+.col-xl-6 {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 250px;
+    height: 100px;
+    background-color: #646569;
+    
+}

@@ -2,10 +2,10 @@
 .mySlides {
 	display: none;
 }
-img {
+.fade img {
 	vertical-align: middle;
 	max-width: 100%;
-    margin-top: 5px;
+  margin-top: 5px;
 }
 
 /* Slideshow container */

@@ -12,8 +12,9 @@
 <body>
     <?php 
         include("../public/backend/header/header.php");
-        include("../public/backend/banner/banner.php")
-    ?>
+        include("../public/backend/banner/banner.php");
+        include("../public/backend/main/about_us.php")
+    ?>  
      
 </body>
 </html>
