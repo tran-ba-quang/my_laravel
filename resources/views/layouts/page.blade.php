@@ -10,15 +10,52 @@
     @yield("head")
 </head>
 <body>
-  <div class="container">
-      <div class="row">
-          <div class="col">
-            @yield("content")
+
+  <div class="page-wrapper">
+    <div class="header-wrapper">
+      <header id="header" class="header-builder">
+        <div class="header-top">
+          @yield("header-top")
+        </div>
+        <div class="header-main">
+          @yield("header-main")
+        </div>
+        <div class="header-bottom">
+          @yield("header-bottom")
+        </div>
+      </header>
+    </div>
+
+    <div class="main">
+      <div class="container">
+        <div class="page-content">
+          <div class="slider">
+            @yield("slider")
           </div>
-          <div class="col">
-            @yield("sidebar")
+          <div class="home-intro">
+            @yield("intro")
           </div>
+          <div class="home-services">
+            @yield("services")
+          </div>
+          <div class="home-news">
+            @yield("news")
+          </div>
+          <div class="home-partner">
+            @yield("partner")
+          </div>
+        </div>
       </div>
-  </div>     
+    </div>
+
+    <div class="footer-wrapper">
+      <div class="footer-main">
+        @yield("footer-main")
+      </div>
+      <div class="footer-bottom">
+        @yield("footer-bottom")
+      </div>
+    </div>
+  </div>
 </body>
 </html>
