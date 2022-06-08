@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body a {
+    outline: none!important;
+    overflow: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+
+}
+.header-top {
+    margin: 10px 5% 10px 5%;
+}
+.header-row {
+    display: flex;
+    width: 100%;
+}
+.header-col.header-left {
+    width: 50%;
+}
+.header-col.header-right {
+    width: 50%;
+    text-align: center;
+}
+ul.custom-menu li a {
+    
+    color: #005da3;
+}
+img#logo {
+    height: 55px;
+    width: 170px;
+    margin-left: 20px;
+}
+ul.header2{
+    display: none;
+}
